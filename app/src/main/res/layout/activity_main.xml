@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/green"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Регистрация_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="Регистрация"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/username_et"
+        android:layout_marginTop="50dp"
+        android:background="@color/green3"
+        android:layout_marginHorizontal="20dp"
+        android:hint="username"
+        android:textColorHint="@color/white"
+        android:paddingStart="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/gmail_et"
+        android:layout_marginTop="50dp"
+        android:background="@color/green3"
+        android:layout_marginHorizontal="20dp"
+        android:hint="gmail"
+        android:textColorHint="@color/white"
+        android:paddingStart="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password_et"
+        android:layout_marginTop="50dp"
+        android:background="@color/green3"
+        android:layout_marginHorizontal="20dp"
+        android:hint="password"
+        android:textColorHint="@color/white"
+        android:paddingStart="20dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="@color/white"
+        android:id="@+id/next_btn"
+        android:layout_marginTop="70dp"
+        android:text="next"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sova7"
+        android:id="@+id/sova7"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trivia_tv"
+        android:text="Trivia"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
